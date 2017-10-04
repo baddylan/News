@@ -12,10 +12,10 @@ FTP_HOST=localhost
 FTP_USER=anonymous
 FTP_TARGET_DIR=/
 
-SSH_HOST=fadedstars.xyz
+SSH_HOST=localhost
 SSH_PORT=22
-SSH_USER=patriciaadams
-SSH_TARGET_DIR=/Users/[atriciaadams/Git/baddylan.github.io-src/output
+SSH_USER=root
+SSH_TARGET_DIR=/var/www
 
 S3_BUCKET=my_s3_bucket
 
@@ -25,7 +25,7 @@ CLOUDFILES_CONTAINER=my_cloudfiles_container
 
 DROPBOX_DIR=~/Dropbox/Public/
 
-GITHUB_PAGES_BRANCH=gh-pages
+GITHUB_PAGES_BRANCH=master
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
